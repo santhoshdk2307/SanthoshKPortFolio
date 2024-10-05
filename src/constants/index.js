@@ -209,7 +209,7 @@ const educations = [
 const testimonials = [
   {
     testimonial:
-      "Thanks to our new Management System developed by Mathias our sales and company have been skyrocketing, amazing work.",
+      "Thanks to our new Management System developed by Santhosh K our sales and company have been skyrocketing, amazing work.",
     name: "Erick Castro",
     designation: "CEO",
     company: "Puerto Madero",
@@ -217,7 +217,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about his career and programming like Mathias does.",
+      "I've never met a web developer who truly cares about his career and programming like Santhosh K does.",
     name: "Jack Poole",
     designation: "Student",
     company: "Computer Science",
@@ -225,7 +225,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After having worked with Mathias, I realized he's a very determined person, who will always give his best and make an excellent job.",
+      "After having worked with Santhosh K, I realized he's a very determined person, who will always give his best and make an excellent job.",
     name: "Bradon McInnes",
     designation: "HR",
     company: "Home Depot Richmond",
@@ -277,7 +277,7 @@ const projects = [
       },
     ],
     image: electrisearch,
-    source_code_link: "https://github.com/MathiasMendozaVargas/MyPurpleSpaceNetwork",
+    source_code_link: "https://github.com/Santhosh KMendozaVargas/MyPurpleSpaceNetwork",
   },
   {
     name: "My Purple Space",
@@ -323,7 +323,7 @@ const projects = [
     ],
     image: mypurplespace,
     live_version_link: "https://mypurplespace.netlify.app/",
-    source_code_link: "https://github.com/MathiasMendozaVargas/MyPurpleSpaceNetwork",
+    source_code_link: "https://github.com/Santhosh KMendozaVargas/MyPurpleSpaceNetwork",
   },
   {
     name: "Puerto Madero Management System",
@@ -368,7 +368,7 @@ const projects = [
       },
     ],
     image: puertomadero,
-    source_code_link: "https://github.com/MathiasMendozaVargas/puertomaderomanagementsystem",
+    source_code_link: "https://github.com/Santhosh KMendozaVargas/puertomaderomanagementsystem",
   },
   {
     name: "Spaceplus",
@@ -405,7 +405,7 @@ const projects = [
       },
     ],
     image: spaceplush,
-    source_code_link: "https://github.com/MathiasMendozaVargas/Spaceplush",
+    source_code_link: "https://github.com/Santhosh KMendozaVargas/Spaceplush",
   },
   {
     name: "Self Driving Car",
@@ -434,7 +434,7 @@ const projects = [
       },
     ],
     image: selfDrivingCar,
-    source_code_link: "https://github.com/MathiasMendozaVargas/SelfDrivingCar",
+    source_code_link: "https://github.com/Santhosh KMendozaVargas/SelfDrivingCar",
   },
   {
     name: "My Portfolio",
@@ -479,7 +479,7 @@ const projects = [
       },
     ],
     image: myPortfolio,
-    source_code_link: "https://github.com/MathiasMendozaVargas/MyPortfolio",
+    source_code_link: "https://github.com/Santhosh KMendozaVargas/MyPortfolio",
   },
   {
     name: "Bialetti Coffee Shop",
@@ -505,7 +505,7 @@ const projects = [
     ],
     image: bialetti,
     live_version_link: "https://bialetti-bolivia.netlify.app/",
-    source_code_link: "https://github.com/MathiasMendozaVargas/BialettiBolivia",
+    source_code_link: "https://github.com/Santhosh KMendozaVargas/BialettiBolivia",
   },
 ];
 

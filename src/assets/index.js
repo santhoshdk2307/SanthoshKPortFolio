@@ -42,6 +42,7 @@ import spaceplush from "./spaceplush.png";
 import selfDrivingCar from './selfDrivingCar.png';
 import myPortfolio from './myPortfolio.png'
 import bialetti from './bialetti.png'
+import vijay from './R.png'
 
 export {
   logo,
@@ -84,5 +85,6 @@ export {
   spaceplush,
   selfDrivingCar,
   myPortfolio,
-  bialetti
+  bialetti,
+  vijay
 };

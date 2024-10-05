@@ -55,7 +55,7 @@ const Navbar = () => {
                 alt="Workflow"
               />
               <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-                Mathias &nbsp;
+                Santhosh K &nbsp;
                 <span className='lg:block hidden'> | Full Stack Web Developer</span>
               </p>
             </Link>

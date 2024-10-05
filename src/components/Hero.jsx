@@ -22,7 +22,7 @@ const Hero = () => {
 
   
   const typedOptions = {
-    strings: ['Mathias'],
+    strings: ['Santhosh'],
     typeSpeed: 120,
     startDelay: 4,
     backSpeed: 140,

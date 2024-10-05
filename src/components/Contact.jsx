@@ -38,9 +38,9 @@ const Contact = () => {
         'template_cx32dol',
         {
           from_name: form.name,
-          to_name: "Mathias Mendoza",
+          to_name: "Santhosh K",
           from_email: form.email,
-          to_email: "mathiasmendozavargas1403@gmail.com",
+          to_email: "santhoshdk2307@gmail.com",
           message: form.message,
         },
         'c5tnB7-nD2iCPLYlS'

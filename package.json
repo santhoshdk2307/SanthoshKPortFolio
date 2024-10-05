@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -39,6 +39,6 @@
   },
   "description": "![3D Portfolio](https://i.ibb.co/9ykhLtM/Thumbnail.png)",
   "main": "vite.config.js",
-  "author": "MathiasMendoza",
+  "author": "Santhosh K",
   "license": "ISC"
 }
