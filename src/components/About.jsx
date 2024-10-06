@@ -61,12 +61,7 @@ const About = () => {
       variants={fadeIn("", "", 0.1, 1)}
       className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
     >
-      I'm a passionate software engineer, I love Web Development, Data Science
-      and mobile development. I have over 6+ years of experience on Full Stack
-      Development. Born and raised in Bolivia, I moved to Canada 2 years ago
-      to keep going with my studies on the field of Computer Science, I'm a
-      very curious and driven person, always looking to learn something new
-      and expand my knowledge collaborating with people at the same time.
+      I am a passionate Software Engineer with 1.5 months of experience at G7CR Technologies Pvt Ltd, specializing in both front-end and back-end web development. Born in Vellore, Tamil Nadu, and raised in Bangalore, Karnataka, I have completed my schooling, college, and master's degree all in Bangalore. I am a curious and driven individual, always eager to learn new technologies and expand my knowledge through collaboration with others in the tech field.
     </motion.p>
   </motion.div>
   
