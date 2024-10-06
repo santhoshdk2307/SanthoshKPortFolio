@@ -72,7 +72,6 @@ const Navbar = () => {
                 >{nav.title}</a>
               ))}
               <a
-                href='https://www.dropbox.com/scl/fi/w3cp1jputakeov14w5yw5/resume_mathiasmendoza.pdf?rlkey=nkxzb4cv9d3hog1ocsp643uvj&st=ltlvlnrz&dl=0'
                 target="_blank"
                 className="text-gray-200 bg-gray-700 hover:text-white hover:bg-gray-600 px-3 py-2 rounded-md text-sm font-medium"
               >Resume <i class="fa-regular fa-paper-plane ml-1"></i></a>
@@ -126,7 +125,6 @@ const Navbar = () => {
                 >{nav.title}</a>
               ))}
               <a
-                href='https://www.dropbox.com/scl/fi/w3cp1jputakeov14w5yw5/resume_mathiasmendoza.pdf?rlkey=nkxzb4cv9d3hog1ocsp643uvj&st=ltlvlnrz&dl=0'
                 target="_blank"
                 className="bg-gray-700 w-fit m-auto text-white hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >Resume <i class="fa-regular fa-paper-plane ml-1"></i></a>

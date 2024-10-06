@@ -13,7 +13,7 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
+  sql,
   supabase,
   jackpoole,
   erickcastro,
@@ -70,11 +70,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Expert Developer",
+    title: "NodeJs & NestJs Developer",
     icon: backend,
   },
   {
-    title: "Data Science and Deep Learning self-student",
+    title: "SQL",
     icon: creator,
   },
 ];
@@ -113,8 +113,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "SQL",
+    icon: sql,
   },
   {
     name: "Three JS",
@@ -140,67 +140,44 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Web Developer Intern",
-    company_name: "BlueSpace.Ai - Remote in Vancouver, BC",
+    title: "Software Engineer",
+    company_name: "G7CR Technologies Pvt Ltd - Bangalore, India",
     icon: bluespace,
     iconBg: "#ffff",
-    date: "August 2023 - Present",
+    date: "July 2023 - Present",
     points: [
-      "Implemented complex user interfaces using advanced ReactJs, NextJs, Python, TailwindCss, Typescript, etc.",
-      "Utilized React for frontend web development and Flutter for cross-platform mobile app development.",
+      "Developed and maintained web applications using MongoDB, SQL, Express, React, Node.js, Nest.js, TailwindCss, Typescript, etc.",
+      "Worked with C#.NET, Redux Toolkit, Socket.io, and Sequelize to build efficient and scalable solutions.",
+      "Integrated Azure Blob Storage and Azure Services for cloud-based data management and infrastructure.",
       "Collaborated on optimizing app performance and enhancing user experience.",
     ],
   },
-  {
-    title: "Full Stack Web Developer (Frontend Focus)",
-    company_name: "Puerto Madero Urubo - Remote in Santa Cruz, Bolivia",
-    icon: puertomaderologo,
-    iconBg: "#071b43",
-    date: "December 2020 - August 2023",
-    points: [
-      "Developed and maintained RESTful APIs using Node.js and Express, ensuring secure and efficient data handling.",
-      "Implemented server-side rendering and dynamic routing using Next.js for improved SEO and performance",
-      "Integrated third-party services and APIs.",
-      "Designed and optimized database schemas with MySQL and MongoDB, focusing on scalability and data integrity."
-    ],
-  },
-  {
-    title: "Frontend Flutter App Developer Intern",
-    company_name: "MultiCenter - Hybrid in Santa Cruz, Bolivia",
-    icon: multicenter,
-    iconBg: "#ffd300",
-    date: "August 2020 - January 2021",
-    points: [
-      "Developed cross-platform mobile applications using Flutter for both iOS and Android",
-      "Integrated RESTful APIs, databases, and server-side scripting",
-      "Focused on UI/UX design, responsive layout, and state management using Flutter.",
-    ],
-  },
+ 
 ];
 
 const educations = [
   {
-    title: "Full Stack Web Development Co-op Course",
-    company_name: "Cornerstone College - Vancouver, Canada",
+    title: "Master of Computer Applications",
+    company_name: "Reva University - Bangalore, India",
     icon: cornerstone,
     iconBg: "#283b8a",
-    date: "August 2022 - October 2023",
+    date: "August 2021 - October 2023",
     points: [
-      "Participated in a rigorous co-op program with a focus on full-stack web development.",
-      "Gained expertise in both frontend and backend technologies, including React, Node.js, and databases.",
-      "Contributed to real-world projects, practicing software engineering best practices.",
+      "Completed the Master of Computer Applications program with First Class Distinction.",
+      "Gained expertise in computer science, software development, and emerging technologies.",
+      "Worked on projects involving software engineering, web development, and database management.",
     ],
   },
   {
-    title: "Full Stack Web and Mobile Development Course",
-    company_name: "Community College - Santa Cruz, Bolivia",
+    title: "Bachelor of Science in Computer Science",
+    company_name: "MS Ramaiah College - Bangalore, India",
     icon: sczCollege,
     iconBg: "#036838",
-    date: "January 2019 - March 2020",
+    date: "June 2018 - September 2021",
     points: [
-      "Studied web and mobile development concepts, including HTML, CSS, JavaScript, and mobile app development.",
-      "Worked with various programming languages and frameworks, such as React, React Native, and Node.js.",
-      "Developed and deployed web and mobile applications for practical experience.",
+      "Successfully completed the Bachelor's program in Computer Science.",
+      "Built a strong foundation in programming, algorithms, data structures, and computer systems.",
+      "Engaged in hands-on projects and practical applications in software development and system design.",
     ],
   },
   
@@ -235,90 +212,62 @@ const testimonials = [
 
 const projects = [
   {
-    name: "ElectriSearch",
+    name: "Bike Showroom Management",
     description:
-      "Explore the world with ElectriSearch, your go-to for finding electric charging stations globally. Join our community to support clean energy, contribute to the charging network, and connect with eco-conscious users.",
+    "Developed as part of my Bachelor's final year project, this system manages inventory, sales, customer details, and billing for a bike showroom. It was designed to improve daily operations and enhance customer service efficiency.",
     tags: [
       {
-        name: "nextjs14",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "text-green-600",
-      },
-      {
-        name: "tailwindCss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "text-blue-600",
-      },
-      {
-        name: "framermotion",
-        color: "text-purple-500",
-      },
-      {
-        name: "googlemapsApi",
-        color: "text-yellow-500",
-      },
-      {
-        name: "postgress",
-        color: "text-green-600",
-      },
-      {
-        name: "mysql",
+        name: "c#.net",
         color: "text-purple-600",
       },
       {
-        name: "toastifyjs",
-        color: "text-blue-600",
-      },
-    ],
-    image: electrisearch,
-    source_code_link: "https://github.com/Santhosh KMendozaVargas/MyPurpleSpaceNetwork",
-  },
-  {
-    name: "My Purple Space",
-    description:
-      "Social Networking App that allow users to create their profiles, add friends, see other people's profiles, share photos, post comments, like or dislike posts. User have total control over their profile and the content they share.",
-    tags: [
-      {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "text-green-600",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "css",
+        color: "text-pink-500",
       },
       {
         name: "javascript",
-        color: "text-yellow-500",
+        color: "text-yellow-600",
       },
       {
-        name: "framermotion",
+        name: "bootstrap",
         color: "text-purple-500",
       },
       {
-        name: "threejs",
-        color: "text-yellow-500",
-      },
-      {
-        name: "postgress",
+        name: "sql server",
         color: "text-green-600",
       },
+    ],
+    image: electrisearch,
+    // source_code_link: "https://github.com/Santhosh KMendozaVargas/MyPurpleSpaceNetwork",
+  },
+  {
+    name: "Medicinal Plant Classification",
+    description:
+    "Developed a web application that allows users to upload images of plants to identify their names, medicinal benefits, and natural habitats. This project utilizes a Convolutional Neural Network for accurate classification.",
+    tags: [
       {
-        name: "mysql",
-        color: "text-purple-600",
+        name: "python",
+        color: "text-blue-600",
       },
       {
-        name: "toastifyjs",
-        color: "text-blue-600",
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "text-pink-500",
+      },
+      {
+        name: "javascript",
+        color: "text-yellow-600",
+      },
+      {
+        name: "bootstrap",
+        color: "text-purple-500",
       },
     ],
     image: mypurplespace,
@@ -326,44 +275,32 @@ const projects = [
     source_code_link: "https://github.com/Santhosh KMendozaVargas/MyPurpleSpaceNetwork",
   },
   {
-    name: "Puerto Madero Management System",
+    name: "Learning Management System (LMS)",
     description:
-      "Management System App built for Puerto Madero, a real estate company located in Bolivia. It allows employees inside the company to have their accounts, schedule viewings, manage company business and share photos and information valuable that could be useful for other employees such as photos, ads media, etc.",
+      "Developed a comprehensive Learning Management System that facilitates online learning and course management. The application allows users to enroll in courses, track their progress, and access learning materials.",
     tags: [
       {
-        name: "html5",
-        color: "blue-text-gradient",
+        name: "react",
+        color: "text-blue-600",
       },
       {
         name: "mongodb",
         color: "text-green-600",
       },
       {
-        name: "express",
-        color: "text-purple-500",
+        name: "node.js",
+        color: "text-yellow-600",
       },
       {
-        name: "nodejs",
-        color: "text-green-500",
-      },
-      {
-        name: "javascript",
-        color: "text-yellow-500",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css3",
+        name: "tailwind css",
         color: "text-pink-500",
       },
       {
-        name: "mysql",
-        color: "text-purple-600",
+        name: "redux",
+        color: "text-purple-500",
       },
       {
-        name: "toastifyjs",
+        name: "REST APIs",
         color: "text-blue-600",
       },
     ],
@@ -371,66 +308,50 @@ const projects = [
     source_code_link: "https://github.com/Santhosh KMendozaVargas/puertomaderomanagementsystem",
   },
   {
-    name: "Spaceplus",
+    name: "Azure Migration and Modernization Program (AMMP)",
     description:
-      "React Js app connected to NASA's media API, it allows users to browse for anything related to space, such as: Planets, Stars, Rockets, Companies, etc. It has a beautiful and simple user interface.",
+      "Contributed to the backend of the AMMP project, focusing on parsing CSV files and managing the insertion, updating, and validation of thousands of records in the database.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "mSSQL",
+        color: "text-green-600",
       },
       {
-        name: "restApi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "nasa-api",
-        color: "text-blue-600",
-      },
-      {
-        name: "react-hooks",
+        name: "Nest.js",
         color: "text-purple-600",
       },
       {
-        name: "axios",
-        color: "text-gray-400",
+        name: "Sequelize",
+        color: "text-blue-600",
       },
       {
-        name: "javascript",
-        color: "text-yellow-500",
+        name: "CSV Parser",
+        color: "text-yellow-600",
       },
     ],
     image: spaceplush,
     source_code_link: "https://github.com/Santhosh KMendozaVargas/Spaceplush",
   },
   {
-    name: "Self Driving Car",
+    name: "Black and White",
     description:
-      "Exciting Python-based implementation of a self-driving car simulation leveraging the power of Deep Q Learning (DQN) neural networks. Imagine a virtual world where our intelligent car not only roams autonomously but learns from its experiences to become an adept driver!",
+  "Developed APIs for creating and retrieving dynamic form templates, enabling flexible data collection and user interactions within the application.  Implemented robust validation and error-handling mechanisms to ensure data integrity while managing various form templates based on user requirements. Collaborated with frontend developers to create a user-friendly interface that allows users to easily create, edit, and manage their templates, ultimately enhancing the overall user experience.",
     tags: [
       {
-        name: "python3",
-        color: "text-green-500",
+        name: "React.js",
+        color: "text-purple-600",
       },
       {
-        name: "pytorch",
-        color: "text-orange-500",
+        name: "Nest.js",
+        color: "text-purple-600",
       },
       {
-        name: "deeplearning",
+        name: "Sequelize",
         color: "text-blue-600",
       },
       {
-        name: "tcl-tk",
-        color: "text-yellow-500",
-      },
-      {
-        name: "reinforcement-learning",
-        color: "text-blue-600",
+        name: "SQL Server",
+        color: "text-green-600",
       },
     ],
     image: selfDrivingCar,
@@ -482,25 +403,33 @@ const projects = [
     source_code_link: "https://github.com/Santhosh KMendozaVargas/MyPortfolio",
   },
   {
-    name: "Bialetti Coffee Shop",
+    name: "Green Matters",
     description:
-      "JavaScript, HTML5, CSS3, and Bootstrap 5 power this site, enhancing the franchise's visibility. Key features include a commercial showcase, external stock management, and a robust delivery system. Actively developed, we welcome collaboration for a successful Bolivia launch.",
+      "Worked on both API and UI development for the Green Matters project, focusing on business billing and invoice generation. This project streamlines financial processes and improves billing accuracy.",
     tags: [
       {
-        name: "html",
-        color: "text-blue-500",
+        name: "HTML",
+        color: "blue-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "CSS",
+        color: "text-pink-500",
       },
       {
-        name: "bootstrap5",
-        color: "text-purple-500",
+        name: "jQuery",
+        color: "text-yellow-600",
       },
       {
-        name: "javascript",
-        color: "text-yellow-500",
+        name: "C#.NET",
+        color: "text-purple-600",
+      },
+      {
+        name: "MS SQL",
+        color: "text-green-600",
+      },
+      {
+        name: "Stored Procedures",
+        color: "text-blue-600",
       },
     ],
     image: bialetti,

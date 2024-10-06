@@ -56,7 +56,7 @@ const Hero = () => {
           >
             I'm a Full Stack Web Developer, <br className='sm:block hidden' />
             very passionate coder, always looking<br className='sm:block hidden' />
-            to expand my knoledge!
+            to expand my knowledge!
           </motion.p>
         </div>
       </div>

@@ -12,11 +12,11 @@ import erickcastro from './erickcastro.jpg'
 import bradon from './bradon.jpg'
 
 import css from "./tech/css.png";
-import git from "./tech/git.png";
+import git from "./tech/github.jpg";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import supabase from './tech/supabase.png'
+import sql from "./tech/sql.png";
+import supabase from './tech/nest.png'
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
@@ -35,14 +35,19 @@ import puertomaderologo from "./company/puertomadero.jpg";
 import bluespace from './company/bluespace.png';
 import fiverr from './company/fiverr.png'
 
-import electrisearch from './electrisearch.png'
+import electrisearch from './bikeshowroom.jpg'
 import mypurplespace from "./mypurplespace.png";
-import puertomadero from "./puertomadero.png";
-import spaceplush from "./spaceplush.png";
-import selfDrivingCar from './selfDrivingCar.png';
-import myPortfolio from './myPortfolio.png'
-import bialetti from './bialetti.png'
-import vijay from './R.png'
+import puertomadero from "./LMS.jpg";
+import spaceplush from "./Ammp.png";
+import selfDrivingCar from './BNW.png';
+import myPortfolio from './MYPF.png'
+import bialetti from './GM.png'
+import vijay from './mar-Photoroom.png'
+import AZ900 from './AZ-900.png'
+import AZ204 from './AZ-204.png'
+import AZ204C from './204C.pdf'
+import AZ900C from './900C.pdf'
+
 
 export {
   logo,
@@ -61,7 +66,7 @@ export {
   git,
   html,
   javascript,
-  mongodb,
+  sql,
   supabase,
   nodejs,
   reactjs,
@@ -86,5 +91,9 @@ export {
   selfDrivingCar,
   myPortfolio,
   bialetti,
-  vijay
+  vijay,
+  AZ900,
+  AZ204,
+  AZ204C,
+  AZ900C
 };
