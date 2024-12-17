@@ -35,6 +35,7 @@ import {
   myPortfolio,
   bialetti,
   threejs,
+  vtion
 } from "../assets";
 
 export const navLinks = [
@@ -147,7 +148,7 @@ const experiences = [
     date: "July 2023 - Present",
     points: [
       "Developed and maintained web applications using MongoDB, SQL, Express, React, Node.js, Nest.js, TailwindCss, Typescript, etc.",
-      "Worked with C#.NET, Redux Toolkit, Socket.io, and Sequelize to build efficient and scalable solutions.",
+      "Worked with C#.NET, Redux Toolkit and Sequelize to build efficient and scalable solutions.",
       "Integrated Azure Blob Storage and Azure Services for cloud-based data management and infrastructure.",
       "Collaborated on optimizing app performance and enhancing user experience.",
     ],
@@ -211,69 +212,69 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Bike Showroom Management",
-    description:
-    "Developed as part of my Bachelor's final year project, this system manages inventory, sales, customer details, and billing for a bike showroom. It was designed to improve daily operations and enhance customer service efficiency.",
-    tags: [
-      {
-        name: "c#.net",
-        color: "text-purple-600",
-      },
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "text-pink-500",
-      },
-      {
-        name: "javascript",
-        color: "text-yellow-600",
-      },
-      {
-        name: "bootstrap",
-        color: "text-purple-500",
-      },
-      {
-        name: "sql server",
-        color: "text-green-600",
-      },
-    ],
-    image: electrisearch,
-    // source_code_link: "https://github.com/Santhosh KMendozaVargas/MyPurpleSpaceNetwork",
-  },
-  {
-    name: "Medicinal Plant Classification",
-    description:
-    "Developed a web application that allows users to upload images of plants to identify their names, medicinal benefits, and natural habitats. This project utilizes a Convolutional Neural Network for accurate classification.",
-    tags: [
-      {
-        name: "python",
-        color: "text-blue-600",
-      },
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "text-pink-500",
-      },
-      {
-        name: "javascript",
-        color: "text-yellow-600",
-      },
-      {
-        name: "bootstrap",
-        color: "text-purple-500",
-      },
-    ],
-    image: mypurplespace,
-    live_version_link: "https://mypurplespace.netlify.app/",
-    source_code_link: "https://github.com/Santhosh KMendozaVargas/MyPurpleSpaceNetwork",
-  },
+  // {
+  //   name: "Bike Showroom Management",
+  //   description:
+  //   "Developed as part of my Bachelor's final year project, this system manages inventory, sales, customer details, and billing for a bike showroom. It was designed to improve daily operations and enhance customer service efficiency.",
+  //   tags: [
+  //     {
+  //       name: "c#.net",
+  //       color: "text-purple-600",
+  //     },
+  //     {
+  //       name: "html",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "text-pink-500",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "text-yellow-600",
+  //     },
+  //     {
+  //       name: "bootstrap",
+  //       color: "text-purple-500",
+  //     },
+  //     {
+  //       name: "sql server",
+  //       color: "text-green-600",
+  //     },
+  //   ],
+  //   image: electrisearch,
+  //   // source_code_link: "https://github.com/Santhosh KMendozaVargas/MyPurpleSpaceNetwork",
+  // },
+  // {
+  //   name: "Medicinal Plant Classification",
+  //   description:
+  //   "Developed a web application that allows users to upload images of plants to identify their names, medicinal benefits, and natural habitats. This project utilizes a Convolutional Neural Network for accurate classification.",
+  //   tags: [
+  //     {
+  //       name: "python",
+  //       color: "text-blue-600",
+  //     },
+  //     {
+  //       name: "html",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "text-pink-500",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "text-yellow-600",
+  //     },
+  //     {
+  //       name: "bootstrap",
+  //       color: "text-purple-500",
+  //     },
+  //   ],
+  //   image: mypurplespace,
+  //   live_version_link: "https://mypurplespace.netlify.app/",
+  //   source_code_link: "https://github.com/Santhosh KMendozaVargas/MyPurpleSpaceNetwork",
+  // },
   {
     name: "Learning Management System (LMS)",
     description:
@@ -357,51 +358,51 @@ const projects = [
     image: selfDrivingCar,
     source_code_link: "https://github.com/Santhosh KMendozaVargas/SelfDrivingCar",
   },
-  {
-    name: "My Portfolio",
-    description:
-      "Interactive portfolio with React, Three.js, and Framer Motion for a dynamic user experience. Explore my work with smooth animations and 3D elements. Powered by Vite and Tailwind CSS for fast, stylish development. Make it yours and deploy effortlessly.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "text-green-600",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "text-blue-500",
-      },
-      {
-        name: "framermotion",
-        color: "text-purple-500",
-      },
-      {
-        name: "threejs",
-        color: "text-yellow-500",
-      },
-      {
-        name: "postgress",
-        color: "text-green-600",
-      },
-      {
-        name: "mysql",
-        color: "text-purple-600",
-      },
-      {
-        name: "toastifyjs",
-        color: "text-blue-600",
-      },
-    ],
-    image: myPortfolio,
-    source_code_link: "https://github.com/Santhosh KMendozaVargas/MyPortfolio",
-  },
+  // {
+  //   name: "My Portfolio",
+  //   description:
+  //     "Interactive portfolio with React, Three.js, and Framer Motion for a dynamic user experience. Explore my work with smooth animations and 3D elements. Powered by Vite and Tailwind CSS for fast, stylish development. Make it yours and deploy effortlessly.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "text-green-600",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "typescript",
+  //       color: "text-blue-500",
+  //     },
+  //     {
+  //       name: "framermotion",
+  //       color: "text-purple-500",
+  //     },
+  //     {
+  //       name: "threejs",
+  //       color: "text-yellow-500",
+  //     },
+  //     {
+  //       name: "postgress",
+  //       color: "text-green-600",
+  //     },
+  //     {
+  //       name: "mysql",
+  //       color: "text-purple-600",
+  //     },
+  //     {
+  //       name: "toastifyjs",
+  //       color: "text-blue-600",
+  //     },
+  //   ],
+  //   image: myPortfolio,
+  //   source_code_link: "https://github.com/Santhosh KMendozaVargas/MyPortfolio",
+  // },
   {
     name: "Green Matters",
     description:
@@ -436,6 +437,32 @@ const projects = [
     live_version_link: "https://bialetti-bolivia.netlify.app/",
     source_code_link: "https://github.com/Santhosh KMendozaVargas/BialettiBolivia",
   },
+  {
+    name: "Vtion Services",
+    description:
+      "Led the development of APIs, converting the entire application from Node.js to Nest.js. Focused on modularizing the application into different modules and optimizing performance. The database used was PostgreSQL.",
+    tags: [
+      {
+        name: "PostgreSQL",
+        color: "text-blue-600",
+      },
+      {
+        name: "Nest.js",
+        color: "text-purple-600",
+      },
+      {
+        name: "Node.js",
+        color: "text-green-600",
+      },
+      {
+        name: "API Development",
+        color: "text-yellow-600",
+      },
+    ],
+    image: vtion,
+    source_code_link: "https://github.com/YOUR_USERNAME/YOUR_PROJECT_REPO", // Replace with actual source link
+  }
+
 ];
 
 export { services, technologies, experiences, educations, testimonials, projects };

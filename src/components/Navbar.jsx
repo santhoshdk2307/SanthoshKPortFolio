@@ -60,7 +60,7 @@ const Navbar = () => {
               </p>
             </Link>
           </div>
-            <div className="hidden lg:block ml-10 flex items-baseline space-x-4">
+            <div className="hidden lg:block ml-10 items-baseline space-x-4">
               {navLinks.map((nav) => (
                 <a
                   href={`#${nav.id}`}
@@ -71,10 +71,10 @@ const Navbar = () => {
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >{nav.title}</a>
               ))}
-              <a
+              {/* <a
                 target="_blank"
                 className="text-gray-200 bg-gray-700 hover:text-white hover:bg-gray-600 px-3 py-2 rounded-md text-sm font-medium"
-              >Resume <i class="fa-regular fa-paper-plane ml-1"></i></a>
+              >Resume <i class="fa-regular fa-paper-plane ml-1"></i></a>  */}
             </div>
         </div>
         <div className="-mr-2 flex lg:hidden">
@@ -124,10 +124,10 @@ const Navbar = () => {
                   className="hover:bg-gray-700 text-white hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >{nav.title}</a>
               ))}
-              <a
+              {/* <a
                 target="_blank"
                 className="bg-gray-700 w-fit m-auto text-white hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              >Resume <i class="fa-regular fa-paper-plane ml-1"></i></a>
+              >Resume <i class="fa-regular fa-paper-plane ml-1"></i></a> */}
             </div>
           </div>
         )}

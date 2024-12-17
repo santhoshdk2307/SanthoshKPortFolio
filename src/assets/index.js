@@ -42,11 +42,12 @@ import spaceplush from "./Ammp.png";
 import selfDrivingCar from './BNW.png';
 import myPortfolio from './MYPF.png'
 import bialetti from './GM.png'
-import vijay from './mar-Photoroom.png'
+import vijay from './myphoto.jpeg'
 import AZ900 from './AZ-900.png'
 import AZ204 from './AZ-204.png'
 import AZ204C from './204C.pdf'
 import AZ900C from './900C.pdf'
+import vtion from './vtion.svg'
 
 
 export {
@@ -95,5 +96,6 @@ export {
   AZ900,
   AZ204,
   AZ204C,
-  AZ900C
+  AZ900C,
+  vtion
 };
